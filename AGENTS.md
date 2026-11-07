@@ -7,7 +7,7 @@ This repo is part of the FrankX / Starlight / Arcanea agent estate.
 - Repo: `awesome-wealth-agent-skills`
 - Class: content-or-program, public-safe research catalog
 - Default health command: `./scripts/validate-catalog.ps1`
-- Remote target: `https://github.com/frankxai/awesome-wealth-agent-skills`
+- Remote target: `https://github.com/Agentic-Income/awesome-wealth-agent-skills`
 
 ## Agent Rules
 
