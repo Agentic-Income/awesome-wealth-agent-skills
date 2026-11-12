@@ -1,0 +1,46 @@
+# Awesome Wealth Agent Skills
+
+> Web-first catalog and one portable agent skill for financial research, reporting, scenario analysis, and governance. Educational and analytical only — never personalized financial advice.
+
+Audience: people building a private wealth-research workflow with an agent, who need public sources, explicit boundaries, and a repeatable output shape rather than a product.
+
+## How to use
+
+No package install and no build step. The catalog is `README.md`.
+
+To use the skill, copy the folder into a skills directory your agent reads (for example `.agents/skills/` in a project):
+
+    git clone https://github.com/Agentic-Income/awesome-wealth-agent-skills
+    cp -r awesome-wealth-agent-skills/skills/wealth-research <your-project>/.agents/skills/
+
+On Windows, copy `skills\wealth-research` into your agent's skills directory instead.
+
+Health check:
+
+    ./scripts/validate-catalog.ps1
+
+## Key files
+
+- `README.md` — the catalog: curated table, peer directories, contribution standard, research method.
+- `skills/wealth-research/SKILL.md` — the skill: inputs, rules, and the required output shape (source, category, why it matters, integration use, execution risk, privacy risk, what it is not for, next review action).
+- `data/repos.json` — machine-readable catalog entries behind the README.
+- `docs/selection-matrix.md` — how sources are selected and scored.
+- `docs/public-safety.md` — the public boundary this repo enforces.
+- `AGENTS.md` — repo classification and agent rules.
+
+## Scope and exclusions
+
+- Outputs are research organization, not advice. No financial, investment, legal, tax, accounting, securities, or compliance claims.
+- Agents may research, compare, and score tools. They may not recommend live capital movement or wallet actions.
+- Execution-adjacent and custody-adjacent tools are marked as such.
+- Keep private positions, accounts, wallets, seed phrases, keys, and custody details out of the repo.
+- Inclusion is not an endorsement, and the catalog is not exhaustive.
+- Content is dedicated to the public domain under CC0 1.0.
+
+## Links
+
+- [README](./README.md)
+- [AGENTS.md](./AGENTS.md)
+- [Organization profile](https://github.com/Agentic-Income)
+- [Sibling catalog: awesome-investor-agent-skills](https://github.com/Agentic-Income/awesome-investor-agent-skills)
+- [Sibling catalog: awesome-agentic-income](https://github.com/Agentic-Income/awesome-agentic-income)
